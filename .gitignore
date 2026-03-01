@@ -1,0 +1,69 @@
+# ==============================
+# 🔐 Environment Variables
+# ==============================
+.env
+.env.*
+*.env
+
+# ==============================
+# 🐍 Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python build files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==============================
+# 📦 Node / React
+# ==============================
+node_modules/
+dist/
+build/
+coverage/
+
+# Vite cache
+.vite/
+
+# ==============================
+# 🧠 Logs
+# ==============================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==============================
+# 🖥 OS Files
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# 🧪 VS Code
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# 🔑 API Keys / Secrets
+# ==============================
+*.pem
+*.key
+*.crt
+
+# ==============================
+# 🗂 Misc
+# ==============================
+*.sqlite3
+*.db
